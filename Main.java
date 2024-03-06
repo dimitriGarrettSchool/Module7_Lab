@@ -4,55 +4,54 @@ public class Main
 {
     public static void main(String[] args)
     {
-        //loop0();
-        //loop1();
-        //loop2();
-        //loop3();
+        loop0();
+        System.out.println("----------");
+        loop1();
+        System.out.println("----------");
+        loop2();
+        System.out.println("----------");
+        loop3();
+        System.out.println("----------");
         //loop4();
+        //System.out.println("----------");
         //loop5();
+        //System.out.println("----------");
         //loop6();
+        //System.out.println("----------");
         //loop7();
         loop8();
     }
 
     public static void loop0()
     {
-        int sum = 0;
-        for (int i = 0; i < 31; ++i)
+        for (int i = 0; i < 30; ++i)
         {
-            sum += i;
+            System.out.println(i);
         }
-        System.out.println("Sum 0-30 by 1: " + sum);
     }
 
     public static void loop1()
     {
-        int sum = 0;
         for (int i = 30; i > 0; --i)
         {
-            sum -= i;
+            System.out.println(i);
         }
-        System.out.println("Difference 0-30 by 1: " + sum);
     }
 
     public static void loop2()
     {
-        int sum = 0;
         for (int i = 0; i < 18; i += 3)
         {
-            sum += i;
+            System.out.println(i);
         }
-        System.out.println("Sum 0-18 by 3: " + sum);
     }
 
     public static void loop3()
     {
-        int sum = 0;
         for (int i = 10; i > 0; i -= 2)
         {
-            sum -= i;
+            System.out.println(i);
         }
-        System.out.println("Difference 10-0 by 2: " + sum);
     }
 
     public static void loop4()
